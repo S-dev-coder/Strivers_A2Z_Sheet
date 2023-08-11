@@ -8,7 +8,7 @@
 // Input: arr[] = {8,10,5,7,9};
 // Output: 10
 
-//Brute Force Approach
+//Brute Force Approach-- O(NlogN)
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -28,7 +28,7 @@ int main() {
     return 0;
 }
 
-//Recursive Approach
+//Recursive Approach-- O(N)
 
 
 #include <bits/stdc++.h>
@@ -56,6 +56,3 @@ int main() {
   cout << "The largest element in the array is: " << max<<endl;
   return 0;
 }
-
-
-
